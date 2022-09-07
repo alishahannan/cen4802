@@ -1,7 +1,16 @@
 package cen4802;
-
+/**
+ * Program to calculate and display a term of the Fibonacci sequence.
+ * @author Alisha Hannan
+ *
+ */
 public class fibonacci {
 
+	/**
+	 * Returns the nth term in the Fibonacci sequence given an integer. 
+	 * @param n	the term in the Fibonacci sequence to calculate
+	 * @return	 the value of the selected term in the Fibonacci sequence
+	 */
 	 static int fibonacci(int n) {
 		if (n == 0 || n == 1)
 			return n;
